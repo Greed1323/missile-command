@@ -1,0 +1,19 @@
+{
+  "name": "missile-command",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --outfile=dist/app.js",
+    "start": "esbuild src/index.js --servedir=dist --bundle --outfile=dist/app.js"
+  },
+  "author": "William Groc",
+  "license": "ISC",
+  "dependencies": {
+    "phaser": "3.54.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.12.1",
+    "serve": "11.3.2"
+  }
+}
